@@ -1,2 +1,2 @@
 # Algorithms-and-Data-Structures
-My C++ implementation for various algorithms and data structures
+Library for my C++ implementations of various algorithms and data structures that I use for programming competitions.

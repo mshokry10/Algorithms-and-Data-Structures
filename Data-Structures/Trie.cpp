@@ -1,6 +1,7 @@
 /**
  * Trie (Prefix Tree)
  * Change the value of N and CHARSET
+ * Note: assumes lowercase english letters
  */
 #include <bits/stdc++.h>
 

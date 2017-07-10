@@ -1,3 +1,8 @@
+/*
+ * For each number, I check whether it's better to keep swapping it to the left
+ * or to the right, until it reaches its new poition, and sum all these distances.
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,12 @@
+/*
+ * Since we can reach all the roads, and each road has 2 lanes, one for each direction,
+ * then we will only need to visit each lane once. So I calculate the sum of distances
+ * for all the lanes, and calculate how much time this distance requires.
+ * Note that we use the speed of 20 KM/h, because we'll only visit the roads when
+ * they are full of snow. And we need to convert the points and the speed to the same
+ * unit.
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;

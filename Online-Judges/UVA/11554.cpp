@@ -1,3 +1,11 @@
+/*
+ * After observing the results by brute force, I found a pattern that goes like this:
+ * Starting from the 3rd result, the result in even positions increase by powers of 2,
+ * like 1, 4, 9, 16, ...
+ * And the result in odd positions increase by multiples of 2, like 2, 4, 6, ...
+ * So I precalculated the results for all N.
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;
